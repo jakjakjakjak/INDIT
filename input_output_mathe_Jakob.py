@@ -1,0 +1,8 @@
+str_a = input ('Gib eine Zahl ein:')
+int_a = int (str_a)
+b=int (input('noch eine Zahl:'))
+print ("Die Summe der Zahlen ist:", int_a + b)
+print ("Die Differenz der Zahlen ist:", int_a - b)
+print ("Das Produkt der Zahlen ist:", int_a * b)
+print ("Der Quotient der Zahlen ist:", int_a / b)
+print ("a^b", pow(int_a, b))
